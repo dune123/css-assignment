@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Inter';
+    font-style: normal;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.top {
+    position: absolute;
+    height: 592px;
+    width: 100%;
+    background-color: #FFCD9E;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-left h1 {
+
+    position: absolute;
+    width: 562px;
+    height: 108px;
+    left: 136px;
+    top: 83px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 150%;
+    color: #282828;
+}
+
+.top-left p {
+    position: absolute;
+    width: 495px;
+    height: 81px;
+    top: 219px;
+    left: 136px;
+    font-size: 18px;
+}
+
+.top-left h4 {
+    position: absolute;
+    width: 227px;
+    height: 81px;
+    top: 315px;
+    left: 136px;
+    font-size: 18px;
+}
+.top-right{
+    width: 393.52px;
+    height: 442.45px;
+    top: 66.4px;
+    left: 91.87px;
+}
+.search-submit {
+    top: 411px;
+    left: 136px;
+}
+
+.search-submit input {
+    /* Rectangle 9 */
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 344px;
+    height: 48px;
+    left: 136px;
+    top: 411px;
+
+    background: #FFFFFF;
+    border: 4px solid #000000;
+    border-radius: 8px;
+    padding: 0 0.75rem;
+    font-size: 16px;
+
+}
+
+.search-submit button {
+    position: absolute;
+    width: 170px;
+    height: 48px;
+    top: 411px;
+    left: 496px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+}
+
+.spam {
+
+
+    position: absolute;
+    width: 344px;
+    height: 61px;
+    left: 134px;
+    top: 479px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.top-right {
+    /* dweep io 1 */
+
+    position: absolute;
+    width: 575px;
+    height: 575px;
+    left: 818px;
+    top: 20px;
+
+}
+
+.bottom {
+    position: absolute;
+    height: 298px;
+    background-color: black;
+    width: 100%;
+    top: 592px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-left ul {
+    list-style: none;
+    color: white;
+    left: 191px;
+    top: 654px;
+
+    font-family: 'Inter';
+    font-size: 18px;
+    font-style: normal;
+    line-height: 160%;
+    padding: 3rem 8rem;
+}
+
+.bottom-right ul {
+    list-style: none;
+    color: white;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    padding: 3rem 8rem;
+}
