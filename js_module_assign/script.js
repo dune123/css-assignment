@@ -59,6 +59,15 @@ const refree=(userHand,cpHand)=>{
         setDecision("YOU WIN!")
         setHumanScore(HUMANSCORE+1);
     }
+    if(userHand=="rock" && cpHand=="rock"){
+        setDecision("IT'S A TIE!");
+    }
+    if(userHand=="paper" && cpHand=="paper"){
+        setDecision("IT'S A TIE!")
+    }
+    if(userHand=="scissor" && cpHand=="scissor"){
+        setDecision("IT'S A TIE!");
+    }
 };
 
 const restartGame=()=>{
@@ -66,7 +75,7 @@ const restartGame=()=>{
     contest.style.display="none";
 
     let hands=document.querySelector(".hands");
-    hands.style.display="flex";
+    hands.style.display="flex"; 
 }
 
 const setComputerScore=(newscore)=>{
