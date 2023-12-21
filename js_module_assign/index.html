@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ROCK PAPER SCISSOR</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+        <div class="main">
+            <!--Header with score-->
+            <div class="scoreboard">
+                <div class="title">
+                    <h1>ROCK</h1>
+                    <h1>PAPER</h1>
+                    <h1>SCISSOR</h1>
+                </div>
+                <div class="score">
+                <div class="score-computer">
+                    <p>COMPUTER</p>
+                    <p>SCORE</p>
+                    <h1>0</h1>
+                </div>
+                <div class="score-human">
+                    <p>HUMAN</p>
+                    <p>SCORE</p>
+                    <h1>0</h1>
+                </div>
+                </div>
+            </div>
+            <!--Rock paper scissor-->
+            <div class="hands">
+                <div class="hands-top">
+                    <div class="hand scissor">
+                        <img src="/design/scissor.png" onclick="pickuserhand('scissor')">
+                    </div>
+                    <div class="hand paper">
+                        <img src="/design/paper.png" onclick="pickuserhand('paper')">
+                    </div>
+                </div>
+                    <div class="hand rock">   
+                        <img src="/design/rock.png" onclick="pickuserhand('rock')">
+                    </div>
+             </div>
+             <!--contest-->
+             <div class="contest">
+                <div class="userhand">
+                    <h1>YOU PICKED</h1>
+                    <div class="handImageContainer">
+                        <img id="userPickImage" src="/design/scissor.png">
+                    </div>
+                </div>
+                <div class="refree">
+                    <div class="desicion"><h1>YOU WIN</h1><p>AGAINST PC</p></div>
+                    <div class="newGame" onclick="restartGame()">PLAY AGAIN</div>
+                </div>
+                <div class="computerhand">
+                    <h1>THE PC PICKED</h1>
+                    <div class="handImageContainer" id="special">
+                        <img id="computerPickImage" src="/design/scissor.png">
+                    </div>
+                </div>
+             </div>
+        </div>
+        <script src="script.js"></script>
+  </body>
+  </html>
